@@ -130,7 +130,7 @@ foreach ($files as $file) {
         ':package_name' => $packageName,
         ':package_slug' => $packageSlug,
         'Skeleton' => $className,
-        'skeleton' => $packageSlug,
+        'skeleton' => $packageSlugWithoutPrefix,
         ':package_description' => $description,
     ]);
 
